@@ -9,8 +9,6 @@ export function HangmanWord({
   guessedLetters,
   isLoser = false,
 }: HangmanWordProps) {
-  console.log(wordToGuess);
-
   return (
     <div
       style={{
